@@ -4,6 +4,7 @@
 function countWord() {
 
    let text = document.getElementById("text").value;
+   text =text.trim();
    
     let words = text.split(" ").length ;
   
